@@ -4,6 +4,10 @@
         margin: 0;
         padding: 0;
       }
+
+      html, body{
+        height: 100%;
+      }
       
       body {
         font-family: Arial, sans-serif;
@@ -18,16 +22,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url("../imagens/foto1.png");
+        min-height: 100%;
+
       }
   
       .header-left, .header-right {
         display: inline-block;
+        
       }
 
       .header-left{
-        background-color: #fff;
+        background-color: transparent;
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        
       }
 
       .logo {
@@ -38,6 +47,7 @@
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 2px;
+        
       }
       
       .code {

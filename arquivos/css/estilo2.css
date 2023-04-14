@@ -1,0 +1,36 @@
+
+.about-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+.primeira{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.entre-em-contato{
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: #25d366;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+    .primeira{
+        max-width: 100%;
+    }
+    .order-sm-2 {
+        order: 1;
+      }
+      .order-sm-1 {
+        order: 2;
+      }
+  }
+  
